@@ -1,5 +1,7 @@
-function hello(name = "R2") {
-  return `Hello, ${name}`;
+class MyFirstPackagePublished {
+    sayHello(d) {
+        console.log('Hello ', d, '!!!');
+    }
 }
 
-export default hello;
+module.exports = MyFirstPackagePublished;
